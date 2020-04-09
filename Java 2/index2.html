@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+		<!-- Emertimi i html file-eve from index to index(n), ngaqe po i uploadoj detyrat 
+			 ne nje repository te njejte, po i emeroj ne kete menyre per shkak qe mos te del
+			 ndonje ngaterrese mes file-eve te tjere(por e kam) parasysh se file-i kryesor,
+			 baze duhet te emerohet index.html -->
+<html>
+	<head>
+		<title>Ushtrime 2</title>
+	</head>
+	<body style = "background-color: lightblue;">
+		<header>
+			<img src = "UBT-LOGO.png" alt = "Logo e UBT-se" width = "150">
+			<ul style = "display:inline;">
+				<li style = "display:inline;">Home</li>
+				<li style = "display:inline;">About</li>
+				<li style = "display:inline;">Contact Us</li>
+			</ul>
+			<ol>
+				<li>Lajme</li>
+				<li>Teknologji</li>
+				<li>Sport</li>
+				<li>Shendetesi</li>
+				<li>Pune</li>
+				<li>Informacione</li>
+				<li>Extra</li>	
+			</ol>
+		</header>
+		<br>
+		<hr>
+		<h3>Regjistrohu ne faqen tone</h3>
+		<form>
+			<fieldset style = "border:2px solid grey;">
+					<legend>Regjistrimi</legend>
+					<div style = "padding:15px;">
+					<label for "Emri">Emri</label>
+					<input type = "text" id = "Emri", name = "Emri"> 
+					<p style = "display:inline">pranon tekst cfaredolloji</p>
+					<br>
+					<label for "Mbiemri">Mbiemri</label>
+					<input type = "text" id = "Mbiemri", name = "Mbiemri">
+					<p style = "display:inline">pranon tekst cfaredolloji</p>
+					<br>
+					<label for "Email">Email</label>
+					<input type = "email" id = "Email", name = "Email">
+					<p style = "display:inline">pranon vetem email</p>
+					<br>
+					<label for "Mosha">Mosha</label>
+					<input type = "number" id = "Mosha", name = "Mosha">
+					<p style = "display:inline">pranon vetem numer</p>
+					<br>
+					<label for "Datelindja">Datelindja</label>
+					<input type = "date" id = "Datelindja", name = "Datelindja">
+					<p style = "display:inline">pranon vetem date</p>
+					<br>
+					<input type="radio" id="male" name="gender" value="male">
+					<label for="male">Male</label>
+					<input type="radio" id="female" name="gender" value="female">
+					<label for="female">Female</label>
+					<br>
+					<input type="radio" id="female" name="gender" value="female">
+					<label for="female">Female</label><br>
+					<select id = "qytetet" name = "qytetet" selected = "Prishtine">
+						<option value = "Prishtine">Prishtine</option>
+						<option value = "Gjilan">Gjilan</option>
+						<option value = "Ferizaj">Ferizaj</option>
+						<option value = "Peje">Peje</option>
+					</select>
+					</div>
+				</fieldset>
+			</form>
+		<!-- <br> -->
+		<form>
+			<fieldset style = "border:2px solid grey;">
+			<legend>Orari</legend>
+			<table border = "1px">
+				<thead>
+					<tr>
+						<th></th>
+						<th>9:00-10:30</th>
+						<th>10:40-12:10</th>
+						<th>12:20-13:50</th>
+						<th>14:00-15:30</th>
+						<th>15:40-17:10</th>
+					</tr>
+					<tr>
+						<th>E Hene</th>
+						<td colspan = "2" style = "text-align:center;">Inxhinieri e Ueb'it</td>
+						<td></td>
+						<td colspan = "2" style = "text-align:center;">Labcourse 1</td>
+					</tr>
+					<tr>
+						<th>E Marte</th>
+						<td colspan = "5" rowspan = "2" style = "text-align:center;">Pushim</td>
+					</tr>
+					<tr>
+						<th>E Merkure</th>
+					</tr>
+					<tr>
+						<th>E Enjte</th>
+						<td>Struktura Diskrete 2</td>
+						<td>Sisteme Operative</td>
+						<td style = "text-align:center;">Algoritme</td>
+						<td style = "text-align:center;" colspan = "2">Boll per sot :)</td>
+					</tr>
+				</thead>
+				<!-- <tbody></tbody> -->
+			</table>
+			<form>
+				<fieldset style = "border:2px solid grey; margin-top:20px;">
+					<legend>Lendet</legend>
+					<ul>
+						<li>Inxhinieri e Ueb'it</li>
+						<ul type = "circle">
+							<li>HTML</li>
+							<li>CSS</li>
+								<ul type = "square">
+									<li>Inline</li>
+									<li>Internal</li>
+									<li>External</li>
+								</ul>
+							<li>JS</li>
+							<li>PHP</li>
+								<ol type = "i">
+									<li>OOP</li>
+									<li>Procedural</li>
+								</ol>
+						</ul>
+					</ul>
+				</fieldset>
+			</form>
+			</fieldset>
+		</form>
+		<footer style = "text-align:center;">
+			<p><strong>&copy;2020 - UBT SHKI - </strong><a href = "https://www.github.com/kujtimpllana/detyrat" target = "_blank">Reference</a></p>
+		</footer>
+	</body>
+</html>
